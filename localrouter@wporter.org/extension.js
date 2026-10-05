@@ -51,12 +51,8 @@ class Indicator extends PanelMenu.Button {
         this._timer = 0;
         this._lastView = null;
 
-        const box = new St.BoxLayout({style_class: 'panel-status-menu-box'});
-        this._icon = new St.Icon({icon_name: 'network-server-symbolic', style_class: 'system-status-icon'});
         this._label = new St.Label({text: '…', y_align: Clutter.ActorAlign.CENTER, style_class: 'lr-panel-label'});
-        box.add_child(this._icon);
-        box.add_child(this._label);
-        this.add_child(box);
+        this.add_child(this._label);
 
         this._accountsSection = new PopupMenu.PopupMenuSection();
         this.menu.addMenuItem(this._accountsSection);

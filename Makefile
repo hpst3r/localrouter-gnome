@@ -31,6 +31,7 @@ uninstall:
 	-gnome-extensions disable $(UUID)
 	rm -f $(DEST)
 
-# Nested test shell (GNOME 49+: needs `sudo dnf install mutter-devkit`).
+# Nested test shell in a window, extension pre-enabled, isolated dconf db so
+# the real session is untouched. GNOME 49+ needs mutter-devkit. NESTED_SIZE=WxH.
 nested: install
-	dbus-run-session -- gnome-shell --devkit --wayland
+	scripts/nested.sh
