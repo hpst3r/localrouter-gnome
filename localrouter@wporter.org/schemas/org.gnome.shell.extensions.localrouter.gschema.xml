@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.localrouter" path="/org/gnome/shell/extensions/localrouter/">
+    <key name="server-url" type="s">
+      <default>'http://127.0.0.1:8787'</default>
+      <summary>LocalRouter base URL</summary>
+    </key>
+    <key name="key-file" type="s">
+      <default>''</default>
+      <summary>Path to a client key file</summary>
+      <description>Sent as a bearer token when the router has control.require_auth. Empty = no auth (loopback default). The key is read from disk on each poll, never stored in settings.</description>
+    </key>
+    <key name="poll-interval" type="u">
+      <range min="5" max="3600"/>
+      <default>30</default>
+      <summary>Poll interval in seconds</summary>
+    </key>
+    <key name="panel-account" type="s">
+      <default>''</default>
+      <summary>Account shown in the top bar</summary>
+      <description>Empty = the account with the least 5h quota remaining.</description>
+    </key>
+  </schema>
+</schemalist>

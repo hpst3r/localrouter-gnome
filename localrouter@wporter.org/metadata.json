@@ -1,0 +1,9 @@
+{
+  "uuid": "localrouter@wporter.org",
+  "name": "LocalRouter",
+  "description": "Top-bar quota and usage indicator for a LocalRouter LLM gateway.",
+  "shell-version": ["50"],
+  "url": "https://github.com/hpst3r/localrouter-gnome",
+  "settings-schema": "org.gnome.shell.extensions.localrouter",
+  "version-name": "0.1.0"
+}

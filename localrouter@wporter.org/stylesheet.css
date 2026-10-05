@@ -1,0 +1,22 @@
+.lr-panel-label { padding-left: 4px; font-feature-settings: "tnum"; }
+.lr-panel-label.lr-warn { color: #f6d32d; }
+.lr-panel-label.lr-crit { color: #ff7b63; }
+.lr-panel-label.lr-err  { color: #9a9996; }
+
+.lr-account { padding-top: 6px; padding-bottom: 6px; }
+.lr-account-name { font-weight: bold; }
+.lr-account-flags { color: #9a9996; font-size: 0.9em; padding-left: 12px; }
+
+.lr-window-row { spacing: 8px; padding-top: 3px; }
+.lr-window-label { min-width: 48px; font-size: 0.9em; }
+.lr-window-detail { font-size: 0.9em; font-feature-settings: "tnum"; }
+
+.lr-bar { height: 8px; background-color: rgba(255,255,255,0.12); border-radius: 4px; }
+.lr-bar-fill { border-radius: 4px; }
+.lr-bar-fill.lr-ok   { background-color: #57e389; }
+.lr-bar-fill.lr-warn { background-color: #f6d32d; }
+.lr-bar-fill.lr-crit { background-color: #ff7b63; }
+.lr-bar-reserve { background-color: #ffffff; }
+
+.lr-usage  { color: #c0bfbc; font-size: 0.9em; padding-top: 4px; }
+.lr-reason { color: #f6d32d; font-size: 0.85em; padding-top: 2px; }
