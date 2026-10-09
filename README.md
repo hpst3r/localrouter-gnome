@@ -1,6 +1,6 @@
 # localrouter-gnome
 
-GNOME Shell (50) top-bar indicator for [LocalRouter](../localrouter). It polls the
+GNOME Shell (50) top-bar indicator for [LocalRouter](https://github.com/hpst3r/localrouter). It polls the
 router's read-only control API and shows:
 
 - **Top bar:** the lowest 5h quota remaining across accounts (or a pinned
@@ -12,7 +12,7 @@ router's read-only control API and shows:
 - Refresh, open the web dashboard, settings.
 
 Uses only `GET /control/v1/status` and `GET /control/v1/usage?since=24h&group=account`
-(see LocalRouter `docs/SPEC.md` → Control API). Never writes to the router.
+(see LocalRouter [`docs/SPEC.md`](https://github.com/hpst3r/localrouter/blob/master/docs/SPEC.md) → Control API). Never writes to the router.
 
 ## Settings
 

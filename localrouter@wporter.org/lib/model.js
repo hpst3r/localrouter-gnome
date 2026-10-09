@@ -1,5 +1,6 @@
 // Pure view-model logic: no GI imports, so it runs under plain `gjs -m` tests.
-// Input shapes follow LocalRouter docs/SPEC.md "Control API".
+// Input shapes follow LocalRouter's "Control API" specification:
+// https://github.com/hpst3r/localrouter/blob/master/docs/SPEC.md
 
 export const WINDOW_LABELS = {
     '5h': '5h',
